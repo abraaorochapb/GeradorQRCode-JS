@@ -7,8 +7,28 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/geral.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  
+    <div id="container">
+      <header id="qr-header">
+        <h1>
+          Gerador QR Code
+        </h1>
+        <p>
+          Insira uma URL ou texto para criar um QR Code
+        </p>
+      </header>
+
+      <div id="qr-header">
+        <input type="text" placeholder="Insira a URL ou texto">
+        <button>Gerar</button>
+      </div>
+
+      <div id="qr-code">
+        <img src="imagens/rickQRCode.png">
+      </div>
+    </div>
 </body>
 </html>
